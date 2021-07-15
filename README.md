@@ -7,11 +7,18 @@ My Anime List (MAL) is a fan-based website where users can track and rate the an
 
 ## Business Problem
 
-Since MAL is a fan-based website, We have been tasked to develope a more effective recommendation system using our expertise in machine learning. 
+Since MAL is a fan-based website, we have been tasked to develope a more effective recommendation system using our expertise in machine learning. 
 
 ## Data
 
-Our dataset is made available by Kaggle. It was scraped directly from My Anime List in March 2021. The dataset contains over 109 million reviews from over 325000 users with approximately above 17000 anime titles. The rating reviews score between 1-5 stars (5 is the best) with is translated to 10 points scale. The metadata also contains key features such as Genre, Popularity, English name, and Score.
+Our dataset is made available by Kaggle.
+
+###Note: the dataset is too large to be uploaded on github. Here are steps to acquire the dataset in order to make our codes work.
+- Download the data from Kaggle. Click this [link](https://www.kaggle.com/hernan4444/anime-recommendation-database-2020). The files that we will be using are "anime.csv" and "animelist.csv".
+- create a folder called "data" and place the files in it.
+- The path for the files should look like this: "data/anime.csv" and "data/animelist.csv".
+
+The dataset was scraped directly from My Anime List in March 2021. It contains over 109 million reviews from over 325000 users with approximately above 17000 anime titles. The rating reviews score between 1-5 stars (5 is the best) with is translated to 10 points scale. The metadata also contains key features such as Genre, Popularity, English name, and Score.
 
 The distribution of rating is quite normal (with mean ~ 7 and std ~ 0.9)
 ![rating_graph](./imgs/rating_dist.png)
