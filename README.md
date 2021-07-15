@@ -13,7 +13,7 @@ Since MAL is a fan-based website, we have been tasked to develope a more effecti
 
 Our dataset is made available by Kaggle.
 
-**Note**: the dataset is too large to be uploaded on github. 
+**Note**: the dataset is too large to be uploaded on github.  
 Here are steps to acquire the dataset in order to make our codes work:
 - Download the data from Kaggle. Click this [link](https://www.kaggle.com/hernan4444/anime-recommendation-database-2020). The files that we will be using are "anime.csv" and "animelist.csv".
 - Create a folder called "data" and place the files in it.
@@ -45,10 +45,11 @@ words
 words
  
 ## For More Information
+
 See full analysis in [Jupyter Notebook](./project_four_code.ipynb) or check out this [presentation](./project_four_presentation.pdf). 
-For additional info, please contact:
-Ramil Chaimongkolbutr at [ramil.ming@flatironschool.com](mailto:ramil.ming@flatironschool.com) 
-George Ferre at [georgeaferre@flatironschool.com](mailto:georgeaferre@flatironschool.com)
+For additional info, please contact:  
+Ramil Chaimongkolbutr at [ramil.ming@flatironschool.com](mailto:ramil.ming@flatironschool.com)  
+George Ferre at [georgeaferre@flatironschool.com](mailto:georgeaferre@flatironschool.com)  
 Aaron Cherry at [cherrya050@flatironschool.com](mailto:cherrya050@flatironschool.com)
 
 
