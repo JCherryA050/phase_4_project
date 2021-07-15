@@ -1,5 +1,5 @@
 # MyAnimeList Recommendation
-
+![MALlogo](./imgs/myanimelist.png)
 
 ## Overview
 
