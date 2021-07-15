@@ -1,13 +1,45 @@
-# Phase 1 Project Templates and Examples
+# MyAnimeList Recommendation
 
-This repo contains templates and examples to help you get started with your Phase 1 Project. Each of these is in a separate branch as explained below.
 
-- The **template-mvp** branch is the template you should use to for your Phase 1 Project. MVP stands for Minimum Viable Product, but this isn't meant in a negative way - if your project uses this template, it will be functional and accessible.
+## Overview
 
-- The **example-mvp** branch is an example project using the MVP template.
+words
 
-Once you've completed your project using the MVP template, you can improve it using the Above and Beyond (AAB) template if you have time:
+## Business Problem
 
-- The **template-aab** branch is the AAB template to use to keep improving your project.
+words
 
-- The **example-aab** branch is an example project using the AAB template.
+## Data
+words
+
+## Methodology
+
+words
+
+## Results
+
+words
+
+## Conclusions
+
+words
+
+## Next Steps
+
+words
+ 
+## For More Information
+See full analysis in [Jupyter Notebook](./project2code.ipynb) or check out this [presentation](./presentation.pdf). 
+For additional info, contact Ramil Chaimongkolbutr at [ramil.ming@flatironschool.com](mailto:ramil.ming@flatironschool.com) or George Ferre at [georgeaferre@flatironschool.com](mailto:georgeaferre@flatironschool.com)
+
+add Aaron
+
+## Repository Structure
+
+```
+├── data
+├── images
+├── README.md
+├── project_four_presentation.pdf
+└── project_four_code.ipynb
+```
