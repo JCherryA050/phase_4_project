@@ -3,18 +3,23 @@
 
 ## Overview
 
-words
+My Anime List (MAL) is a fan-based website where users can track and rate the anime or manga that they watch. MAL contains a lot of details about anime and mange as well as reviews and ratings from almost half a million users. With all this information, MAL has a global ranking of anime/manga, a recommendation system based on users preferences, and directs users to where they can watch or read a given anime/manga.
 
 ## Business Problem
 
-words
+Since MAL is a fan-based website, We have been tasked to develope a more effective recommendation system using our expertise in machine learning. 
 
 ## Data
-words
+
+Our dataset is made available by Kaggle. It was scraped directly from My Anime List in March 2021. The dataset contains over 109 million reviews from over 325000 users with approximately above 17000 anime titles. The rating reviews score between 1-5 stars (5 is the best) with is translated to 10 points scale. The metadata also contains key features such as Genre, Popularity, English name, and Score.
+
+The distribution of rating is quite normal (with mean ~ 7 and std ~ 0.9)
+![rating_graph](./imgs/rating_dist.png)
 
 ## Methodology
 
-words
+We begin our methodology with filtering data down to more manageable size. We remove unrelated and unsavory genres such as 'Musical', 'Movie','OVA', 'Special', 'ONA', and 'Hentai.' We choose to build our recommendation system using collaborative filtering algorithm. There are two libraries that provide useful built-in machine learning models: ALS from PySpark; SVD from Surprise. These are two models that we rely on heavily.  
+
 
 ## Results
 
@@ -29,10 +34,12 @@ words
 words
  
 ## For More Information
-See full analysis in [Jupyter Notebook](./project2code.ipynb) or check out this [presentation](./presentation.pdf). 
-For additional info, contact Ramil Chaimongkolbutr at [ramil.ming@flatironschool.com](mailto:ramil.ming@flatironschool.com) or George Ferre at [georgeaferre@flatironschool.com](mailto:georgeaferre@flatironschool.com)
+See full analysis in [Jupyter Notebook](./project_four_code.ipynb) or check out this [presentation](./project_four_presentation.pdf). 
+For additional info, please contact:
+Ramil Chaimongkolbutr at [ramil.ming@flatironschool.com](mailto:ramil.ming@flatironschool.com) 
+George Ferre at [georgeaferre@flatironschool.com](mailto:georgeaferre@flatironschool.com)
+Aaron Cherry at [cherrya050@flatironschool.com](mailto:cherrya050@flatironschool.com)
 
-add Aaron
 
 ## Repository Structure
 
