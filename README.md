@@ -23,9 +23,12 @@ The dataset was scraped directly from My Anime List in March 2021. It contains o
 
 ## EDA
 
-The distribution of rating is quite normal (with mean ~ 7 and std ~ 0.9)
+The distribution of rating. The graph is left-skewed showing that people trend to rate more on high rating anime. 
 
-![rating_graph](./imgs/rating_dist.png)
+![rating_graph](./imgs/L_skewed.png)
+
+The complexity of the data can be seen by looking at the graph showing that a number of anime has multiple genres. 
+![genres praph](./imgs/genres.png)
 
 ## Methodology
 
@@ -34,15 +37,30 @@ We begin our methodology with filtering data down to more manageable size. We re
 
 ## Results
 
-words
+From ALS model, RMSE is around 5.6.
+From SVD model, RMSE is around 3.1, which is better judging by the number.
+
+# Example of results from SVD model:
+We add a new user which some preference.
+![table1](./imgs/input.png)
+
+Here are 5 examples out of the total 10 recommended anime.
+1. Code Geass: Hangyaku no Lelouch R2
+2. Major S6
+3. Death Note
+4. One Punch Man
+5. Black Lagoon: The Second Barrage
+
+From 10 recommended results, we have found that 4 of them are already seen and liked; 2 of them are recommended by other services; 1 is new but recommended by friends; and 3 of them are never heard but promising.
 
 ## Conclusions
 
-words
+- SVD model does the best job with 3.1 RMSE.
+- We are satisfied with the results so far.
 
 ## Next Steps
 
-words
+In order to improve results, we might need to break down the data even more. Some anime in the dataset has multiple seasons. Combining them might give a better RMSE score. 
  
 ## For More Information
 
@@ -52,6 +70,7 @@ Ramil Chaimongkolbutr at [ramil.ming@flatironschool.com](mailto:ramil.ming@flati
 George Ferre at [georgeaferre@flatironschool.com](mailto:georgeaferre@flatironschool.com)  
 Aaron Cherry at [cherrya050@flatironschool.com](mailto:cherrya050@flatironschool.com)
 
+![Ending](./imgs/endinggif.gif)
 
 ## Repository Structure
 
