@@ -64,7 +64,7 @@ In order to improve results, we might need to break down the data even more. Som
  
 ## For More Information
 
-See full analysis in [Jupyter Notebook](./project_four_code.ipynb) or check out this [presentation](./project_four_presentation.pdf). 
+See full analysis in [Jupyter Notebook](./phase_4_code.ipynb) or check out this [presentation](./phase_4_slidedeck.pdf). 
 For additional info, please contact:  
 Ramil Chaimongkolbutr at [ramil.ming@flatironschool.com](mailto:ramil.ming@flatironschool.com)  
 George Ferre at [georgeaferre@flatironschool.com](mailto:georgeaferre@flatironschool.com)  
@@ -77,7 +77,8 @@ Aaron Cherry at [cherrya050@flatironschool.com](mailto:cherrya050@flatironschool
 ```
 ├── data
 ├── imgs
+├── notebooks
 ├── README.md
-├── project_four_presentation.pdf
-└── project_four_code.ipynb
+├── phase_4_slidedeck.pdf
+└── phase_4_code.ipynb
 ```
